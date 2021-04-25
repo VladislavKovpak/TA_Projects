@@ -15,18 +15,23 @@
         <h1 align = "center">Kovpak Vladislav</h1>
         <h1 align = "center">Group IP-12</h1>
         <h1 align = "center">Variant №5</h1>
-        
-        <form action="Lab1.jsp" align = "center">
-            <input type="submit" value="Lab1">
-        </form>
-        
-        <form action="Lab2.jsp" align = "center">
-            <input type="submit" value="Lab2">
-        </form>
-        
-        <form action="Lab3.jsp" align = "center">
-            <input type="submit" value="Lab3">
-        </form>
-        
+
+        <div>
+            <form action="Lab1.jsp" align = "center">
+                <input type="submit" value="Lab1">
+            </form>
+        </div>
+
+        <div>
+            <form action="Lab2form.jsp" align = "center">
+                <input type="submit" value="Lab2">
+            </form>
+        </div>
+
+        <div>
+            <form action="Lab3.jsp" align = "center">
+                <input type="submit" value="Lab3">
+            </form>
+        </div>
     </body>
 </html>
