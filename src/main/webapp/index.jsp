@@ -9,7 +9,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>TA Start</title>
+        <title>TA Starts</title>
     </head>
     <body>
         <h1 align = "center">Kovpak Vladislav</h1>
