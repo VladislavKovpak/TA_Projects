@@ -14,7 +14,6 @@
     <body>
         <h1 align = "center">Kovpak Vladislav</h1>
         <h1 align = "center">Group IP-12</h1>
-        <h1 align = "center">Variant №5</h1>
 
         <div>
             <form action="Lab1.jsp" align = "center">
@@ -32,6 +31,7 @@
             <form action="Lab3.jsp" align = "center">
                 <input type="submit" value="Lab3">
             </form>
+            
         </div>
     </body>
 </html>
