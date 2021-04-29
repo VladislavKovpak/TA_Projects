@@ -12,7 +12,7 @@
         <title>JSP Pag</title>
     </head>
     <body>
-         <h1 align = "center">Result :</h1>
+         <h1 align = "center">Results :</h1>
          <p align = "center"><%=request.getAttribute("result")%></p>
          
          <div>
