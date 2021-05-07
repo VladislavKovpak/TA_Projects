@@ -28,7 +28,7 @@
         </div>
 
         <div>
-            <form action="Lab3.jsp" align = "center">
+            <form action="Lab3form.jsp" align = "center">
                 <input type="submit" value="Lab3">
             </form>
             
