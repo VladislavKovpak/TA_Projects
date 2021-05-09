@@ -31,7 +31,13 @@
             <form action="Lab3form.jsp" align = "center">
                 <input type="submit" value="Lab3">
             </form>
-            
         </div>
+        
+        <div>
+            <form action="Lab4form.jsp" align = "center">
+                <input type="submit" value="Lab4">
+            </form>
+        </div>
+        
     </body>
 </html>
