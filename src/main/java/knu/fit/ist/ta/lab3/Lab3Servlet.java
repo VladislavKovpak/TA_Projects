@@ -67,13 +67,13 @@ public class Lab3Servlet extends HttpServlet {
         
         Task1 tf13 = new Task1();
         
-        int arlng = 30;
+       // int arlng = 30;
         int armax = Integer.parseInt(request.getParameter("x"));
         
-        int[] x = tf13.task(arlng, armax);
+        int[] x = tf13.task(armax);
         
         String output2 = tf13.output2(x);
-        int output = tf13.output(x, armax);
+        int output = tf13.output(x);
         
         request.setAttribute("output", output);
         request.setAttribute("output2", output2);

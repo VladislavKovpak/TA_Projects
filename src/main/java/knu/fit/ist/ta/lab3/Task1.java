@@ -13,7 +13,7 @@ import static java.lang.Math.abs;
  */
 public class Task1 {
 
-    public int[] task(int arrayLeng, int arrayMax) {
+    public int[] task(int arrayLeng) {
         int[] array = new int[arrayLeng];
         for (int i = 0; i < arrayLeng; i++) {
             array[i] = (int) Math.round((Math.random() * 31) - 15);
@@ -21,7 +21,7 @@ public class Task1 {
         return array;
     }
 
-    public static int output(int[] array, int arrayMax) {
+    public static int output(int[] array) {
         int ar_min = array[0];
         int ar_max = array[0];
         for (int i = 1; i < array.length; i++) {
