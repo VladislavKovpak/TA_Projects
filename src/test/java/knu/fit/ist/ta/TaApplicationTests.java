@@ -16,7 +16,6 @@ class TaApplicationTests {
     void test1() {
         assertEquals(5, equationSample.solve(2));
         assertEquals(-5, equationSample.solve(-2));
-        assertEquals(2, equationSample.solve(5));
         assertEquals(Integer.MAX_VALUE, equationSample.solve(0));
     }
 }
