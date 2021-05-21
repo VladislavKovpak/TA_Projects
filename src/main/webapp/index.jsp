@@ -39,5 +39,11 @@
             </form>
         </div>
         
+        <div>
+            <form action="Lab5form.jsp" align = "center">
+                <input type="submit" value="Lab5">
+            </form>
+        </div>
+        
     </body>
 </html>
