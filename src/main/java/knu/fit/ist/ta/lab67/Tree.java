@@ -6,6 +6,8 @@
 package knu.fit.ist.ta.lab67;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.Queue;
 /**
  *
  * @author HP-Notebook
@@ -97,10 +99,21 @@ public class Tree {
         return current;
     }
 
-    public void delete(int value) {
+      public void delete(int value) {
         root = deleteRecursive(root, value);
     }
     
+  String s_getTraverseInOrder = "";  
+    
+    public String getTraverseInOrder(Node node) { 
+        if (node != null) {  
+            getTraverseInOrder(node.left);
+            s_getTraverseInOrder += " " + node.value;
+            getTraverseInOrder(node.right);   
+        }
+        return s_getTraverseInOrder;
+    }
+
     String s_getTraversePreOrder = "";
     
     public String getTraversePreOrder(Node node) {
@@ -110,5 +123,43 @@ public class Tree {
             getTraversePreOrder(node.right);
         }
         return s_getTraversePreOrder;
+    }
+    
+    String s_getTraversePostOrder = "";
+    
+    public String getTraversePostOrder(Node node) {
+        if (node != null) {
+            getTraversePostOrder(node.left);
+            getTraversePostOrder(node.right);
+            s_getTraversePostOrder += " " + node.value;
+        }
+        return s_getTraversePostOrder;
+    }
+    
+    String s_getTraverseLevelOrder = "";
+    
+    public String getTraverseLevelOrder(Node node) {
+        if (root == null) {
+            return " ";
+        }
+
+        Queue<Node> nodes = new LinkedList<>();
+        nodes.add(root);
+
+        while (!nodes.isEmpty()) {
+
+            node = nodes.remove();
+
+            s_getTraverseLevelOrder += " " + node.value;
+
+            if (node.left != null) {
+                nodes.add(node.left);
+            }
+
+            if (node.right != null) {
+                nodes.add(node.right);
+            }
+        }
+        return s_getTraverseLevelOrder;
     }
 }

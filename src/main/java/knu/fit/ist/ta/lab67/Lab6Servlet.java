@@ -93,7 +93,10 @@ public class Lab6Servlet extends HttpServlet {
         int minDig = recursion.minDigit(number);
         int index = tree.getNodeIndex(value);
         boolean contains = tree.containsNode(isValue);
+        String traverseInOrder = tree.getTraverseInOrder(tree.root);
         String traversePreOrder = tree.getTraversePreOrder(tree.root);
+        String traversePostOrder = tree.getTraversePostOrder(tree.root);
+        String traverseLevelOrder = tree.getTraverseLevelOrder(tree.root);
         
         
         request.setAttribute("number", number);
@@ -103,7 +106,10 @@ public class Lab6Servlet extends HttpServlet {
         request.setAttribute("index", index);
         request.setAttribute("isValue", isValue);
         request.setAttribute("contains", contains);
+        request.setAttribute("traverseInOrder", traverseInOrder); 
         request.setAttribute("traversePreOrder", traversePreOrder);
+        request.setAttribute("traversePostOrder", traversePostOrder);
+        request.setAttribute("traverseLevelOrder", traverseLevelOrder);
         request.getRequestDispatcher("Lab6.jsp").forward(request, response);
     }
 

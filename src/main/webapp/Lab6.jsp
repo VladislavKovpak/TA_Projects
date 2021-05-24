@@ -26,8 +26,17 @@
         <h4>Чи містить дерево елемент <big><%=request.getAttribute("isValue")%></big></h4>
         <p><%=request.getAttribute("contains")%></p>
         
+        <h4>traverseInOrder</h4>
+        <p><%=request.getAttribute("traverseInOrder")%></p>
+        
         <h4>traversePreOrder</h4>
         <p><%=request.getAttribute("traversePreOrder")%></p>
+        
+        <h4>traversePostOrder</h4>
+        <p><%=request.getAttribute("traversePostOrder")%></p>
+        
+        <h4>traverseLevelOrder</h4>
+        <p><%=request.getAttribute("traverseLevelOrder")%></p>
         
         <form action="index.jsp">
                 <input type="submit" value="Home">
