@@ -45,5 +45,17 @@
             </form>
         </div>
         
+        <div>
+            <form action="Lab6form.jsp" align = "center">
+                <input type="submit" value="Lab6">
+            </form>
+        </div>
+        
+        <div>
+            <form action="Lab7form.jsp" align = "center">
+                <input type="submit" value="Lab7">
+            </form>
+        </div>
+        
     </body>
 </html>
