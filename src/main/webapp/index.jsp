@@ -47,13 +47,13 @@
         
         <div>
             <form action="Lab6form.jsp" align = "center">
-                <input type="submit" value="Lab6">
+                <input type="submit" value="Lab6-7">
             </form>
         </div>
         
         <div>
-            <form action="Lab7form.jsp" align = "center">
-                <input type="submit" value="Lab7">
+            <form action="Lab8.jsp" align = "center">
+                <input type="submit" value="Lab8">
             </form>
         </div>
         
