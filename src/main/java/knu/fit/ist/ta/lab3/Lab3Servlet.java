@@ -67,7 +67,6 @@ public class Lab3Servlet extends HttpServlet {
         
         Task1 tf13 = new Task1();
         
-       // int arlng = 30;
         int armax = Integer.parseInt(request.getParameter("x"));
         
         int[] x = tf13.task(armax);
